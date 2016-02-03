@@ -1,0 +1,6 @@
+def mymax(a):
+    k = 0
+    for i in a:
+        if i > k:
+            k = i
+    return k
